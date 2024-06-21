@@ -6,12 +6,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #E3F2FD;
+  background-color: aquamarine;
 }
 .wrapper {
   width: 65vmin;
@@ -91,17 +88,6 @@ body {
     gap: 10px;
   }
   
-  .grid-container {
-      display: grid;
-      grid-template-areas: 
-          "nav",
-          "header",
-          "main",
-          "footer";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-  }
-  
   header {
     background-color: Gold;
     color: rgb(32, 221, 158);
@@ -145,20 +131,7 @@ body {
     color: #2e1a1a;
   }
   
-  h2 {
-    padding: 10px 20px;
-    font-size: 14px;
-    color: brown;
-  }
-  
-  main {
-    background-color: #13a5a5;
-    margin: 50px 100;
-    padding: 50px;
-  }
-  
 
-  
   footer {
     background-color: #2e1a1a;
     opacity: 0.9;
