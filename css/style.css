@@ -222,6 +222,10 @@ nav ul li a {
     margin: 20px 0;
 }
 
+.hero image {
+  size: 10px 10px;
+}
+
 footer .contact p, footer .social-media a {
   margin: 10px 0;
 }
