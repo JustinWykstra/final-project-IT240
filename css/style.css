@@ -66,10 +66,11 @@
     color: white;
   }
   
-  main index.html {
+  .home {
     background-color: white;
+    color: #083053;
   }
-  
+
   main {
     background-color: #083053;
     margin: auto;
