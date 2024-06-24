@@ -8,10 +8,11 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: #a2ed86
 }
 .wrapper {
   width: 90%;
+  height: 500px;
   margin: 0 auto;
   display: flex;
   overflow: hidden;
@@ -57,9 +58,9 @@ body {
   border-right: 1px solid #171B26;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .wrapper {
-    width: 90vmin;
+    width: 70%;
     height: 115vmin;
   }
   .game-details {
@@ -73,7 +74,7 @@ body {
     padding: 15px 0;
     font-size: 1rem;
   }
-}
+} */
 
 .gallery img {
     width: 100%;
@@ -88,26 +89,14 @@ body {
     gap: 10px;
   }
   
-  header {
-    background-color: Gold;
-    color: rgb(32, 221, 158);
-    text-align: center;
-    font-size: 2em;
-    padding: 20px;
-    margin: 0;
-  }
   
   nav {
-    background-color: #2e1a1a;
+    background-color: #a2ed86;
     width: 100%;
     margin: 0;
-    padding: 0 5px;
+    padding: 20px 5px;
     position: sticky;
     top: 0;
-  }
-  
-  nav li {
-    border-right: 1px solid grey;
   }
   
   nav li:last-child {
@@ -121,22 +110,21 @@ body {
   
   nav a {
     text-decoration: none;
-    color: gold;
+    color: #09274b;
     font-weight: bold;
     padding: 14px 16px;
   }
   
   nav a:hover {
-    background-color: #ffe13a;
-    color: #2e1a1a;
+    color: white;
   }
   
 
   footer {
-    background-color: #2e1a1a;
+    background-color: #a2ed86;
     opacity: 0.9;
     padding: 30px 50px;
-    color: gold;
+    color: black;
     text-align: center;
   }
   
@@ -148,6 +136,23 @@ body {
           "nav",
           "main",
           "footer";
+    }
+
+    .wrapper {
+      width: 70%;
+      height: 500px;
+    }
+
+    .game-details {
+      font-size: 1rem;
+      padding: 15px 27px;
+    }
+    .controls {
+      display: flex;
+    }
+    .controls i {
+      padding: 15px 0;
+      font-size: 1rem;
     }
   
     nav ul {
@@ -169,6 +174,13 @@ body {
     body {
       font-size: 24px;
     }
+    
+    .wrapper {
+      width: 50%;
+      height: 500px;
+    }
+  
+
     .gallery {
       grid-template-columns: 1fr 1fr 1fr;
     }

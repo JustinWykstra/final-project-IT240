@@ -23,8 +23,8 @@
   }
   
   header {
-    background-color: Gold;
-    color: rgb(32, 221, 158);
+    background-color:#a2ed86;
+    color: white;
     text-align: center;
     font-size: 2em;
     padding: 20px;
@@ -32,16 +32,12 @@
   }
   
   nav {
-    background-color: #2e1a1a;
+    background-color: #a2ed86;
     width: 100%;
     margin: 0;
-    padding: 0 5px;
+    padding: 20px 5px;
     position: sticky;
     top: 0;
-  }
-  
-  nav li {
-    border-right: 1px solid grey;
   }
   
   nav li:last-child {
@@ -55,50 +51,43 @@
   
   nav a {
     text-decoration: none;
-    color: gold;
+    color: #09274b;
     font-weight: bold;
     padding: 14px 16px;
   }
   
   nav a:hover {
-    background-color: #ffe13a;
-    color: #2e1a1a;
+    color: white;
   }
   
   h2 {
     padding: 10px 20px;
     font-size: 14px;
-    color: brown;
+    color: white;
   }
   
   main {
-    background-color: #13a5a5;
-    margin: 50px 100;
+    background-color: #083053;
+    margin: auto;
     padding: 50px;
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
     font-size: 14px;
     line-height: 1.6;
+    color: white;
   }
+  
    
-  body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f8ff;
-      margin: 0;
-      padding: 0;
-  }
-  
-  
   footer {
-    background-color: #2e1a1a;
+    background-color: #a2ed86;
     opacity: 0.9;
     padding: 30px 50px;
-    color: gold;
+    color: black;
     text-align: center;
   }
   
@@ -144,26 +133,15 @@
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+    width: 10%;
+    height: 10%;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+}  
 
 .contact-intro, .contact-form-section, .contact-details {
     text-align: center;
@@ -172,12 +150,12 @@ nav ul li a {
 
 .contact-intro h1, .contact-form-section h2, .contact-details h2 {
     font-size: 36px;
-    color: #ff6f61;
+    color: white;
 }
 
 .contact-intro p, .contact-details p {
     font-size: 18px;
-    color: #333;
+    color: white;
 }
 
 .contact-form {
@@ -201,8 +179,8 @@ nav ul li a {
 }
 
 .contact-form button {
-    background-color: #ff6f61;
-    color: white;
+    background-color: white;
+    color: #083053;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -211,7 +189,7 @@ nav ul li a {
 }
 
 .contact-form button:hover {
-    background-color: #ff4b3a;
+    background-color: #a2ed86;
 }
 
 .map iframe {
@@ -224,6 +202,15 @@ nav ul li a {
 
 .hero image {
   size: 10px 10px;
+}
+
+.cta-button {
+  color: #083053;
+  background-color: #a2ed86;
+  padding: 10px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 footer .contact p, footer .social-media a {
