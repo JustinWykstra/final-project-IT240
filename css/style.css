@@ -66,6 +66,10 @@
     color: white;
   }
   
+  main index.html {
+    background-color: white;
+  }
+  
   main {
     background-color: #083053;
     margin: auto;
